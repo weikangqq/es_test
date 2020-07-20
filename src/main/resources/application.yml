@@ -1,0 +1,10 @@
+server:
+  port: 8802
+
+spring:
+  elasticsearch:
+    rest:
+      uris: 192.168.152.128:9200
+
+  application:
+    name: es
